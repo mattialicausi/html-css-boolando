@@ -9,3 +9,36 @@ bg-color footer: rgb: 26 26 26;
     padding: 0;
     box-sizing: border-box;
 }
+/* modifico header */
+header{
+    background-color: rgb(238, 113, 46);
+    width: 100%;
+}
+#logo-boolean{
+    width: 120px;
+    height: 27px;
+}
+.container-header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 10px;
+    
+}
+.sex{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+ul li{
+    padding: 5px;
+}
+.icons i{
+    padding: 5px;
+}
+/* fine header */
+
+
