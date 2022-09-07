@@ -10,15 +10,18 @@ bg-color footer: rgb: 26 26 26;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 /* modifico header */
 header{
     background-color: rgb(238, 113, 46);
     width: 100%;
 }
+
 #logo-boolean{
     width: 120px;
     height: 27px;
 }
+
 .container-header{
     display: flex;
     flex-flow: row nowrap;
@@ -26,16 +29,15 @@ header{
     padding: 10px 0;
     color: white;
     max-width: 1170px;
-    margin-left: 100px;
-    margin-right: 100px;
-    
-    
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px; 
 }
+
 .sex{
     display: flex;
     flex-direction: row;
     list-style: none;
-
 }
 ul li{
     padding: 5px;
@@ -50,16 +52,14 @@ ul li{
    width: 300px;
    height: 400px;
 }
-.container-main{
-  
-}
+
 .container-cards{
     display: flex;
     flex-flow: row wrap;  
     justify-content: space-between;
     max-width: 1170px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     padding-bottom: 50px;
 }
 /* modifico btn */
@@ -77,20 +77,20 @@ ul li{
 .percentuale{
     position: absolute;
     left:0;
-    bottom: 150px;
+    bottom: 100px;
     padding: 4px;
     background-color: rgb(235, 50, 35);
 }
 .sostenibilita{
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
     left: 44px;
     padding: 4px;
     background-color: rgb(55, 125, 34);
 }
 .sostenibilita_2{
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
     left: 0;
     padding: 4px;
     background-color: rgb(55, 125, 34);
@@ -111,20 +111,34 @@ ul li{
     display: inline-block;
     font-size: 12px;
 }
+/* fine modifiche main */
 
+/* modifiche con hover */
+.container-img{
+    position: absolute;
+}
+.img_1{
+    position:relative
+}
 
+.img_2{
+    display: none;
+    position: relative;
+}
+.cards:hover .img_2{
+    cursor: pointer;
+    display: inline-block;
+}
+.cards:hover .img_1 {
+    display: none;
+}
 
+.heart:hover{
+    cursor: pointer;
+    color: red;
+}
 
-
-
-
-
-
-
-
-
-
-
+/* fine modifiche effetti hover */
 
 
 /* modifico footer */
@@ -139,8 +153,8 @@ footer{
     color: white;
     padding: 20px 0;
     max-width: 1170px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .text-footer, .icon-footer{
     padding-bottom: 10px;
