@@ -22,9 +22,13 @@ header{
 .container-header{
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px 0;
     color: white;
+    max-width: 1170px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
     
 }
 .sex{
@@ -53,9 +57,12 @@ footer{
 .container-footer{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     padding: 20px 0;
+    max-width: 1170px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .text-footer, .icon-footer{
     padding-bottom: 10px;
