@@ -45,6 +45,84 @@ ul li{
 }
 /* fine header */
 
+/* modifico main */
+.container-main img{
+   width: 300px;
+   height: 400px;
+}
+.container-main{
+  
+}
+.container-cards{
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: space-between;
+    max-width: 1170px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 50px;
+}
+/* modifico btn */
+.cards{
+    /* width: calc(100% / 3); */
+    position: relative;
+}
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    padding: 5px;
+    background-color: white;
+}
+.percentuale{
+    position: absolute;
+    left:0;
+    bottom: 150px;
+    padding: 4px;
+    background-color: rgb(235, 50, 35);
+}
+.sostenibilita{
+    position: absolute;
+    bottom: 150px;
+    left: 44px;
+    padding: 4px;
+    background-color: rgb(55, 125, 34);
+}
+.sostenibilita_2{
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    padding: 4px;
+    background-color: rgb(55, 125, 34);
+}
+/* modifico details */
+.brand{
+    font-size: 15px;
+}
+.name-object{
+    font-size: 20px;
+}
+.price-1{
+    display: inline-block;
+    color: red;
+    font-size: 12px;
+}
+.price-2{
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
