@@ -1,0 +1,11 @@
+/* utility */
+/* bg-color header: rgb 238 113 46;
+btn-%: rgb: 235 50 35;
+btn-sostenibilita: rgb: 55 125 34;
+bg-color footer: rgb: 26 26 26; 
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
