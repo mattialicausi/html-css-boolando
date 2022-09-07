@@ -8,6 +8,7 @@ bg-color footer: rgb: 26 26 26;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 /* modifico header */
 header{
@@ -22,9 +23,8 @@ header{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    padding-top: 10px;
+    padding: 10px 0;
     color: white;
-    padding-bottom: 10px;
     
 }
 .sex{
@@ -42,3 +42,25 @@ ul li{
 /* fine header */
 
 
+
+
+
+/* modifico footer */
+footer{
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+}
+.container-footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: white;
+    padding: 20px 0;
+}
+.text-footer, .icon-footer{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.icon-footer{
+    padding: 5px;
+}
